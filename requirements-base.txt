@@ -14,7 +14,7 @@ aiosignal==1.3.1
     # via aiohttp
 alembic==1.12.0
     # via -r requirements-base.in
-anyio==4.2.0
+anyio==4.4.0
     # via
     #   httpx
     #   openai
@@ -51,7 +51,7 @@ catalogue==2.0.10
     #   spacy
     #   srsly
     #   thinc
-certifi==2023.11.17
+certifi==2024.7.4
     # via
     #   httpcore
     #   httpx
@@ -79,7 +79,7 @@ confection==0.1.4
     # via
     #   thinc
     #   weasel
-cryptography==39.0.2
+cryptography==42.0.8
     # via
     #   -r requirements-base.in
     #   msal
@@ -338,7 +338,7 @@ pytz==2024.1
     #   pandas
 pyyaml==6.0.1
     # via schemathesis
-requests==2.31.0
+requests==2.32.2
     # via
     #   -r requirements-base.in
     #   atlassian-python-api
@@ -376,7 +376,7 @@ scipy==1.11.4
     # via statsmodels
 sentry-asgi==0.2.0
     # via -r requirements-base.in
-sentry-sdk==1.45.0
+sentry-sdk==2.8.0
     # via
     #   -r requirements-base.in
     #   sentry-asgi
@@ -477,7 +477,7 @@ tzdata==2023.4
     # via pandas
 uritemplate==4.1.1
     # via google-api-python-client
-urllib3==2.0.7
+urllib3==2.2.2
     # via
     #   botocore
     #   pdpyras
@@ -487,7 +487,7 @@ uvicorn==0.29.0
     # via -r requirements-base.in
 uvloop==0.19.0
     # via -r requirements-base.in
-validators==0.18.2
+validators==0.21.0
     # via -r requirements-base.in
 wasabi==1.1.2
     # via
@@ -507,3 +507,5 @@ yarl==1.9.4
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
