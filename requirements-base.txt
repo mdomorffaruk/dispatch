@@ -435,7 +435,7 @@ srsly==2.4.8
     #   spacy
     #   thinc
     #   weasel
-starlette==0.32.0.post1
+starlette==0.40.0
     # via
     #   fastapi
     #   schemathesis
