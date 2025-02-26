@@ -326,7 +326,7 @@ python-dateutil==2.9.0.post0
     #   botocore
     #   emails
     #   pandas
-python-jose==3.3.0
+python-jose==3.4.0
     # via -r requirements-base.in
 python-multipart==0.0.9
     # via -r requirements-base.in
